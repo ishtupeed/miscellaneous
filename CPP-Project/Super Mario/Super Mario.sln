@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Super Mario", "Super Mario\Super Mario.vcproj", "{EF4997E4-88C7-47C9-8C1A-35D5D97B9FAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4997E4-88C7-47C9-8C1A-35D5D97B9FAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF4997E4-88C7-47C9-8C1A-35D5D97B9FAD}.Debug|Win32.Build.0 = Debug|Win32
+		{EF4997E4-88C7-47C9-8C1A-35D5D97B9FAD}.Release|Win32.ActiveCfg = Release|Win32
+		{EF4997E4-88C7-47C9-8C1A-35D5D97B9FAD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
