@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+  </head>
+  <body>
+    <script type = "text/javascript">
+
+      function funky()
+      {
+        alert("Ouch!!");
+      }
+
+      function meatball(x)
+      {
+        alert("i love " + x);
+      }
+
+      function apples(one, two)
+      {
+        document.write(one + " is better than " + two + "<br />");
+      }
+
+      function tooeasy()
+      {
+        return "gametime";
+      }
+
+      function addNumbers(a,b)
+      {
+        var c = a + b;
+        return c;
+      }
+
+      function doFirst()
+      {
+        document.write("I am first bro! <br />");
+      }
+
+      function doSecond()
+      {
+        document.write("I am second bro! <br/>");
+      }
+
+      function start()
+      {
+        doFirst();
+        doSecond();
+      }
+      
+      start();
+      meatball("natalie portman");
+      apples("bucky", "hobert");
+      apples("counting crows", "beiber");
+      apples("strawberry", "coconut");
+      document.write(tooeasy() + "<br />");
+      document.write(addNumbers(3, 5));
+    </script>
+    
+    <form>
+      <input type="button" value="touch me" onclick="funky()" />
+    </form>
+  </body>
+</html>

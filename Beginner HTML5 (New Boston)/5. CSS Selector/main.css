@@ -1,0 +1,20 @@
+/* 
+   All the paragraphs that had div
+   as parent will be affected
+*/
+div > p {color:green;}
+body > p {color:red;}
+
+/*
+   All the paragraphs that follow
+   a paragraph of class child will
+   be affected. They must share the
+   same parent
+*/
+p.child + p{color:blue;}
+/*
+  same as +, but doesn't need to
+  immediately follow. Must share
+  same parent.
+*/
+p.child ~ p {color:blue;}

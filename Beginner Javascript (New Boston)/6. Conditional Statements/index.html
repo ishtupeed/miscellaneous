@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+  </head>
+  <body>
+    <script type="text/javascript">
+      var apples = 42;
+      var hotdogs = 52;
+      if(apples == hotdogs)
+        document.write("Yay it worked!");
+      else
+        document.write("\"Nooooooo!\" - Superman");
+      document.write("<br />");
+      var year = 2000;
+      if(year % 400)
+      {
+        if(!(year % 4))
+          document.write("Leap Year");
+        else
+          document.write("Not Leap Year");
+      }
+      else
+        document.write("Not Leap Year");
+      document.write("<br />");
+      // Left to right
+      if(!(year % 400) || (year%4))
+        document.write("Not ");
+      document.write("Leap Year<br/>");
+      var girl = "natalie";
+      switch(girl)
+      {
+        case "natalie":
+          document.write("you must like Garden State");
+          break;
+        case "ashley":
+          document.write("oooh! Fan of Twilight eh?");
+          break;
+        default:
+          document.write("i don't know her!");
+      }
+    </script>
+  </body>
+</html>

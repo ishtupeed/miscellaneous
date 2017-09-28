@@ -1,0 +1,23 @@
+#bacon{color:red;}
+/* class example */
+.tuna{color:blue;}
+/*
+  this p.banana means, anything that
+  contains this banana class, and IS
+  A PARAGRAPH will be affected
+*/
+p.banana{color:green;}
+/* Attribute Selector 
+   Anything that has the
+   attribute 'name' will
+   be affected, regardless
+   of the name
+*/
+p[name]{color:brown;}
+/* select exact name */
+p[name="bucky"]{color:violet;}
+/* starts with bacon */
+p[name^="bacon"]{color:royalblue;}
+/* ends with bacon */
+p[name$="bacon"]{color:purple;font-weight: bold;}
+/* anything that has bacon use *= */

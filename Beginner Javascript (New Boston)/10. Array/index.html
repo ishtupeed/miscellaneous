@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head></head>
+  <body>
+    <script type="text/javascript">
+      var people = new Array("Bucky", "Tommy", "Sarah", "Hannah", "Mickey");
+      document.write(people[3] + "<br />");
+
+      var fruits = new Array(3);
+      fruits[0] = "apple";
+      fruits[1] = "banana";
+      fruits[2] = "mango";
+      for(i=0;i<fruits.length;i++)
+        document.write(fruits[i] + "<br />");
+
+      var items = new Array();
+      items[0] = "baconator";
+      items[1] = "old pumpkins";
+      document.write(items[1] + "<br />");
+
+      var dudes = new Array("Bucky", "Dan", "Randy");
+      var chicks = new Array("Lisa", "Erin", "Hannah");
+      var people = chicks.concat(dudes);
+      for(i=0;i<people.length;i++)
+        document.write(people[i] + "<br />");
+      
+      var movies = new Array("Avatar", "Good Will Hunting", " Vanilla Sky", "Fight Club");
+      var string1 = movies.join(" - ");
+      document.write(string1 + "<br />");
+
+      movies.pop();
+      var string2 = movies.join();
+      document.write(string2 + "<br />");
+
+      var bp = new Array("head", "shoulders", "knees", "toes");
+      document.write("Reverse: <br />");
+      bp.reverse();
+      for(i=0;i<bp.length;i++)
+        document.write(bp[i] + "<br />");
+        document.write("Push: <br />");
+      bp.push("tongue", "liver");
+      for(i=0;i<bp.length;i++)
+        document.write(bp[i] + "<br />");
+        document.write("Sort: <br />");
+      bp.sort();
+      for(i=0;i<bp.length;i++)
+        document.write(bp[i] + "<br />");
+    </script>
+  </body>
+</html>

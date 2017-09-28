@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script type="text/javascript">
+      // Constructor function
+      function person(name, age)
+      {
+        this.name = name;
+        this.age = age;
+      }
+      var bucky = new person("Bucky Roberts", 24);
+      var taylor = new person("Taylor Swift", 20);
+      // Object Initializer - better if there are fewer objects
+      natalie = {name:"Natalie Portman", age:30};
+      // Class with methods
+      function people(name, age)
+      {
+        this.name = name;
+        this.age = age;
+        this.yearsUntilRetire = yearsLeft;
+      }
+
+      function yearsLeft()
+      {
+        var numYears = 65 - this.age;
+        return numYears;
+      }
+
+      var adele = new people("Adele Dazim", 20);
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var tuna = "hey! i am a Tuna Fish";
+      document.write(tuna.length);
+      document.write("<br />");
+      document.write(taylor.name + " " + taylor.age);
+      document.write("<br />");
+      document.write(natalie.name + " " + natalie.age);
+      document.write("<br />");
+      document.write(adele.yearsUntilRetire());
+    </script>
+  </body>
+</html>

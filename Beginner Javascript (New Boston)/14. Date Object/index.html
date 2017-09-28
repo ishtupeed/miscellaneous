@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+  </head>
+  <body>
+    <script type="text/javascript">
+    function doSomething()
+    {
+      document.write("Tuna ");
+    }
+
+    function printTime()
+    {
+      var now = new Date();
+      var hours = now.getHours();
+      var mins = now.getMinutes();
+      var seconds = now.getSeconds();
+      document.write(hours + ":" + mins + ":" + seconds + "<br />");
+    }
+    setInterval("printTime()", 1000);
+    </script>
+  </body>
+</html>

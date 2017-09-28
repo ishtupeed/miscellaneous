@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+  </head>
+  <body>
+    <script type="text/javascript">
+      var user = prompt("Enter Your Name:", "");
+      document.write("Hello, "+ user + "<br />");
+
+      var crap = new Array(3);
+      for(i=0;i<3;i++)
+        crap[i] = prompt("Add something to the ARRAY:", "");
+      
+      document.write(crap.join() + <br />);
+
+      var stuff = new Array("apples", "pears", "bacon", "tuna", "ham");
+      stuff.sort();
+      for(i=0;i<stuff.length;i++)
+        document.write(stuff[i] + "<br />");
+    </script>
+  </body>
+</html>

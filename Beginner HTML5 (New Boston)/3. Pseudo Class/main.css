@@ -1,0 +1,5 @@
+/* Pseudo class:
+   Every nth child of a class, changes. works with numbers - 1 based 
+*/
+p:nth-child(even){color:red;font-weight: bold;}
+p:nth-child(odd){color:green;font-weight: bold;}
